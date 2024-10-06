@@ -1,0 +1,74 @@
+baseURL = 'https://charbel-abidaher.com/'
+languageCode = 'en-us'
+title = "Almost Interesting"
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+
+[params]
+# Meta description
+description = "An Almost Interesting Tech Blog"
+
+# Appearance settings
+theme = 'dark'
+colorPalette = 'catpuccin'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hallo! 👋'
+homeIntroContent = """
+I am Charbel, a Lebanese Software Engineer based in France.
+I'm interested in all kinds of machine learning, mostly NLP and RL. I love designing and programming software of all kinds.
+I'm always on the lookout for interesting problems.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/charbel-abi-daher/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/CharbelAD"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"

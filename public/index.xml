@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Almost Interesting</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Almost Interesting</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m an engineer with Masters degree from &lt;a href=&#34;https://www.ec-nantes.fr/english-version&#34;&gt;Ecole Centrale de Nantes&lt;/a&gt; and the &lt;a href=&#34;http://www.ulfg.ul.edu.lb/&#34;&gt;Lebanese Univerity&lt;/a&gt;. Currently, I work as a Software Engineer at [announcing soon].&lt;/p&gt;&#xA;&lt;p&gt;During my studies, I gained a lot of interest in algorithms and data structures, as well as model checking, game theory, and electronics. The majority of my professional experience thus far involves backend web development and Machine Learning from the design stage all the way to depoyment, I would like to explore large-scale applications in the future.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
